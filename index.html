@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+  </head>
+  <body>
+
+    <div class="webInformation">
+      <header>
+          <h1><i class="fa fa-globe"></i>Web-Technologies</h1>
+          <div class="icon">
+            <a href="https://vk.com/fff1lya" target="_blank"><i class="fa fa-vk fa-2x"></i></a>
+            <a href="https://telegram.com/fff1lya" target="_blank"><i class="fa fa-telegram fa-2x"></i></a>
+            <a href="https://instagram.com/fff1lya" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+          </div>
+      </header>
+      <div class="content">
+        <h1>Кем вы видите себя в it-сфере через 5 лет</h1>
+        <p>“В течении этого времени я планирую вырости в профиссиональном плане
+          как fullstack web-developer. Всё это время развиваться в области front-end,
+          back-end разработки, а так же в Web-дизайне Через 5 лет вижу себя максимально эффективным
+          сотрудником в хорошо организованной компании. Я планирую развивать свои навыки,
+          продолжая приносить пользу деятельности компании,
+          в которой я буду работать.”</p>
+      </div>
+    </div>
+
+    <div class="basicSkills">
+      <div class="content">
+        <div class="info">
+          <p>Веб разрботка это обширная тема, которая делиться на три направления,
+            такие как: front-end, back-end и dev-ops. Но вне зависимости от
+            направления, разработчик должен уметь пользоваться множеством базовых технологий </p>
+        </div>
+        <div class="list">
+          <h1>Базовые навыки</h1>
+          <ul>
+            <li>git - version controls</li>
+            <li>ssh подключения</li>
+            <li>IP адреса</li>
+            <li>Cookies</li>
+            <li>DNS</li>
+            <li>HTTP/HTTPS</li>
+            <li>Basic Terminal Usage</li>
+            <li>Структкры данных</li>
+            <li>Алгоритмы</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="devDirections">
+      <div class="content">
+        <h1>Направления развития</h1>
+        <table>
+          <tr>
+            <th>Front-End</th>
+            <th>Back-End</th>
+          </tr>
+          <tr>
+            <td>HTML</td>
+            <td>Python, PHP, Ruby etc.</td>
+          <tr>
+            <td>CSS</td>
+            <td>Web Servers</td>
+          </tr>
+          <tr>
+            <td>JavaScript</td>
+            <td>RESful APIs</td>
+          </tr>
+          <tr>
+            <td>CSS Framworks</td>
+            <td>Secority</td>
+          </tr>
+          <tr>
+            <td>JS Framworks</td>
+            <td>DataBase</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="aboutMe">
+      <div class="content">
+        <img src="img/aboutMe.png" alt="Person">
+        <div class="aboutMeText">
+          <h1>Обо мне</h1>
+          <p>Я Перфильев Вадим Сергеевич, имею неоконченное высшее образование
+            по направлению цифровые системы и технологии. Занимаюсь fullstack
+            web-разработкой. Имею опыт работы в разработке веб-ресурсов с использованием
+            HTML/CSS, JS, Python Django и др. Так же участвовал в разработке чат ботов для таких
+            платформ как Вконтакте и Телеграм</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="contacts">
+      <div class="content">
+        <h1>Обратная связь и контакты</h1>
+        <form>
+          <p>Введите ваше имя</p>
+          <input class="contact_form" type="text" placeholder="Вадим Сергеевич"> <br>
+          <p>Введите ваш email</p>
+          <input class="contact_form" type="text" placeholder="Example12@gmail.com"> <br>
+          <p>Введите ваш комментарий</p>
+          <textarea name="name" rows="5" cols="50" placeholder="Ваш комметарий (Необязательно)"></textarea><br><br>
+          <span class="send">
+            <input class="sendButton" type="button" value="Отправить" onclick="viewDiv()">
+            <p id="clickButton">Спасибо. Мы скоро свяжемся с вами</p>
+          </span>
+
+          <script>
+            function viewDiv(){
+              document.getElementById("clickButton").style.display = "flex";
+            };
+          </script>
+        </form>
+      </div>
+    </div>
+
+    <footer>
+      <p>©2020, Perfilev V.S.</p>
+    </footer>
+  </body>
+</html>
